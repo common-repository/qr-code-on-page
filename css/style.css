@@ -1,0 +1,42 @@
+.QR_wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: transparent;
+    z-index: 10000;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+.QR_wrapper img {
+    margin-top: 10%;
+}
+
+.QR_wrapper_left_button {
+    background-color: transparent;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: url("../img/left.gif");
+    cursor: pointer;
+    position: fixed;
+    left: 0px;
+    top: 50%;
+    margin-top: -36px;
+    z-index: 10000;
+    height: 79px;
+    width: 72px;
+}
+
+.all_black {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+}
